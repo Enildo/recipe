@@ -30,7 +30,7 @@ nav .nav-link {
 }
 
 nav .nav-link:hover {
-    color: #0959a5 !important;
+    color: #d36001 !important;
 }
 
 main {
@@ -56,10 +56,15 @@ footer {
 }
 
 .btn-primary {
+    align-items: center;
     background-color: #d85e5e;
     border-color: #dfdfdf;
+    padding: 10px 70px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .btn-primary:hover {
-    background-color: #111111;
+    background-color: #2f5a8b;
+    border: 1px solid #202020;
 }
