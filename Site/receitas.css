@@ -1,0 +1,39 @@
+.container-fluid {
+    height: calc(70vh - 150px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+.container-fluid::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    object-fit: cover; 
+    border-bottom: 15px solid #a7534b;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+.card-text {
+    font-size: 12px;
+    color: #666;
+}
